@@ -12,22 +12,37 @@ export const AsideBar = () => {
       </div>
       <div className="nav-container">
         <ul>
-          <Link className="nav-item" to="/">
+          <Link
+            className="nav-item animate__animated animate__backInLeft"
+            to="/"
+          >
             Home
           </Link>
-          <Link className="nav-item" to="about">
+          <Link
+            className="nav-item animate__animated animate__backInRight"
+            to="about"
+          >
             About
           </Link>
-          <Link className="nav-item" to="skill">
+          <Link
+            className="nav-item animate__animated animate__backInLeft"
+            to="skill"
+          >
             Skill
           </Link>
-          <Link className="nav-item" to="proyects">
+          <Link
+            className="nav-item animate__animated animate__backInRight"
+            to="proyects"
+          >
             Proyectos
           </Link>
           {/* <Link className="nav-item" to="educations">
             Educations
           </Link> */}
-          <Link className="nav-item" to="contact">
+          <Link
+            className="nav-item animate__animated animate__backInLeft"
+            to="contact"
+          >
             Contact
           </Link>
         </ul>

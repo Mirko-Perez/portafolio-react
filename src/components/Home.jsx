@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -15,7 +16,13 @@ export const Home = () => {
         </h1>
 
         <h2 className=" mt-1">
-          <span className="typewriter">I like learning </span>{" "}
+          <Typewriter
+            options={{
+              strings: ["Welcome!", "Front-End Developer", "I like Learning"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </h2>
       </div>
     </div>
