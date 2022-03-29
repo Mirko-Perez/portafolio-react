@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Portfolio } from './Portfolio';
 import reportWebVitals from './reportWebVitals';
+
+import './styles/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Portfolio />
   </React.StrictMode>,
   document.getElementById('root')
 );

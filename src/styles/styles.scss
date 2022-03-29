@@ -1,0 +1,10 @@
+//Settings & base
+@import "./base/base";
+@import "/src/styles/base/settings";
+
+//Components
+
+@import "/src/styles/components/AsideBar.scss";
+@import "/src/styles/components/Home.scss";
+@import "./components/Skill";
+@import "./components/About";
