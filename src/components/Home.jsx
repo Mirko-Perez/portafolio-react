@@ -9,7 +9,7 @@ export const Home = () => {
     <div className="home-content">
       <div className="header">
         <h1>
-          HI THERE <br />! I'm{" "}
+          Hello There <br />! I'm{" "}
           <span className="home__title" onClick={() => navigate("/about")}>
             Mirko Perez
           </span>
@@ -24,6 +24,9 @@ export const Home = () => {
             }}
           />
         </h2>
+        <button className="btn-large black waves-effect waves-light ">
+          Descargar CV
+        </button>
       </div>
     </div>
   );

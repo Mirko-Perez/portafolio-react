@@ -5,14 +5,15 @@
   .home__title {
     color: $dark;
     cursor: pointer;
-    font-size: 2.3rem;
-    font-weight: bold;
+    
 
     &:hover {
       color: $grey-ligth;
     }
   }
 }
+
+
 
 // .typewriter {
 //     position: relative;

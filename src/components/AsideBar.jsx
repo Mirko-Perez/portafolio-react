@@ -13,25 +13,25 @@ export const AsideBar = () => {
       <div className="nav-container">
         <ul>
           <Link
-            className="nav-item animate__animated animate__backInLeft"
+            className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="/"
           >
             Home
           </Link>
           <Link
-            className="nav-item animate__animated animate__backInRight"
+            className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="about"
           >
             About
           </Link>
           <Link
-            className="nav-item animate__animated animate__backInLeft"
+            className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="skill"
           >
             Skill
           </Link>
           <Link
-            className="nav-item animate__animated animate__backInRight"
+            className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="proyects"
           >
             Proyectos
@@ -40,7 +40,7 @@ export const AsideBar = () => {
             Educations
           </Link> */}
           <Link
-            className="nav-item animate__animated animate__backInLeft"
+            className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="contact"
           >
             Contact
