@@ -19,9 +19,6 @@ import VSIcon from "../helpers/icons/visualstudio_icon.svg";
 export const Skill = () => {
   return (
     <div className="skill-content">
-      {/* <h1 className="skill__title mt-1 mb-1">Tegnologias</h1> */}
-      {/* <hr /> */}
-
       <div className="card">
         <h5 className="title">Lenguajes</h5>
         <div className="list">

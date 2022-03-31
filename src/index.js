@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ParticleBackgraund from "./ParticleBackgraund";
 import { Portfolio } from "./Portfolio";
 import reportWebVitals from "./reportWebVitals";
 import "./styles/styles.scss";
 
 ReactDOM.render(
   <React.StrictMode>
+    <ParticleBackgraund />
     <Portfolio />
   </React.StrictMode>,
   document.getElementById("root")
