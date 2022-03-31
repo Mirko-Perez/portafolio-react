@@ -1,0 +1,32 @@
+.contact-content{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    height: 600px;
+    width: 50vw;
+    background-color: lighten($color: $dark, $amount: 10);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+
+    
+}
+
+.input-field{
+    width: 100vw;
+}
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+
+#textarea1{
+    height:100px;
+}
+
+input{
+    color: $white;
+}
