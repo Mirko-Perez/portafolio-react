@@ -24,6 +24,18 @@ export const Home = () => {
             }}
           />
         </h2>
+        <ul>
+          <li>
+            <a href="#" className=" waves-effect waves-light">
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a href="#" className="waves-effect waves-light">
+              GitHub
+            </a>
+          </li>
+        </ul>
         <button className="btn-large black waves-effect waves-light ">
           Descargar CV
         </button>
