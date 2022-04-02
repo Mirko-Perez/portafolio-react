@@ -30,7 +30,7 @@ export const Contact = () => {
           </div>
 
           <div className="input-field col s12">
-            <button className="btn-large grey btn-form waves-effect waves-light ">
+            <button className="btn-large dark btn-form waves-effect waves-light ">
               Send
             </button>
           </div>
