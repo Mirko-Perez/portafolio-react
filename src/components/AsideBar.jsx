@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const AsideBar = () => {
   return (
-    <aside className="nav">
+    <aside className="nav ">
       <div className="profile-container">
         <img
           src="https://p4.wallpaperbetter.com/wallpaper/135/692/935/sci-fi-astronaut-jellyfish-space-hd-wallpaper-preview.jpg"

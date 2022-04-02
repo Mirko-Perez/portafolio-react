@@ -14,17 +14,22 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Calculadora} />
+            <img alt="Proyectos" src={Calculadora} />
             <span className="card-title ">Calculadora Nominal</span>
             <p>HTML-JS-SASS-React</p>
           </div>
 
           <div className="card-action">
-            <a target="_blank" href="https://meek-gaufre-cd7025.netlify.app/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://meek-gaufre-cd7025.netlify.app/"
+            >
               Demo
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Mirko-Perez/Calculadora-Nominal-PWA"
             >
               GitHub
@@ -35,19 +40,21 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Search} />
+            <img alt="Proyectos" src={Search} />
             <span className="card-title ">Search Image</span>
             <p>HTML-JS-SASS-React</p>
           </div>
 
           <div className="card-action">
             <a
+              rel="noopener noreferrer"
               target="_blank"
               href="https://mirko-perez.github.io/Search-Image/"
             >
               Demo
             </a>
             <a
+              rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/Mirko-Perez/Search-Image"
             >
@@ -59,7 +66,7 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Hero} />
+            <img alt="Proyectos" src={Hero} />
             <span className="card-title ">Heroes App</span>
             <p>HTML-JS-SASS-React</p>
           </div>
@@ -67,11 +74,16 @@ export const Proyects = () => {
           <div className="card-action">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://romantic-mclean-919093.netlify.app/"
             >
               Demo
             </a>
-            <a target="_blank" href="https://github.com/Mirko-Perez/Heroes-App">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Mirko-Perez/Heroes-App"
+            >
               GitHub
             </a>
           </div>
@@ -80,7 +92,7 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Contact} />
+            <img alt="Proyectos" src={Contact} />
             <span className="card-title ">Contact-List</span>
             <p>HTML-JS-SASS-React</p>
           </div>
@@ -88,12 +100,14 @@ export const Proyects = () => {
           <div className="card-action">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://mirko-perez.github.io/Contact-List-PWA/"
             >
               Demo
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Mirko-Perez/Contact-List-PWA"
             >
               GitHub
@@ -104,16 +118,24 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={PostiT} />
+            <img alt="Proyectos" src={PostiT} />
             <span className="card-title ">PostIT</span>
             <p>HTML-JS-CSS-Python-Django</p>
           </div>
 
           <div className="card-action">
-            <a target="_blank" href="http://mirkoangel1.pythonanywhere.com/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="http://mirkoangel1.pythonanywhere.com/"
+            >
               Demo
             </a>
-            <a target="_blank" href="https://github.com/Mirko-Perez/PostIT">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Mirko-Perez/PostIT"
+            >
               GitHub
             </a>
           </div>
@@ -122,7 +144,7 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Gif} />
+            <img alt="Proyectos" src={Gif} />
             <span className="card-title ">React Gifs Expert</span>
             <p>HTML-JS-CSS-Bootstrap-React</p>
           </div>
@@ -130,12 +152,14 @@ export const Proyects = () => {
           <div className="card-action">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://mirko-perez.github.io/React-Gifs-Expert-App/"
             >
               Demo
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Mirko-Perez/React-Gifs-Expert-App"
             >
               GitHub
@@ -146,7 +170,7 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Todo} />
+            <img alt="Proyectos" src={Todo} />
             <span className="card-title ">To Do Lists</span>
             <p>HTML-JS-CSS-React</p>
           </div>
@@ -154,12 +178,14 @@ export const Proyects = () => {
           <div className="card-action">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://mirko-perez.github.io/project-to-do-lists/"
             >
               Demo
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Mirko-Perez/project-to-do-lists"
             >
               GitHub
@@ -170,7 +196,7 @@ export const Proyects = () => {
       <div className="col s3 m3">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img src={Paint} />
+            <img alt="Proyectos" src={Paint} />
             <span className="card-title ">Paint</span>
             <p>HTML-JS-CSS</p>
           </div>
@@ -178,11 +204,16 @@ export const Proyects = () => {
           <div className="card-action">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://roaring-sorbet-92f5df.netlify.app/"
             >
               Demo
             </a>
-            <a target="_blank" href="https://github.com/Mirko-Perez/Paint">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Mirko-Perez/Paint"
+            >
               GitHub
             </a>
           </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { About } from "../components/About";
 import { AsideBar } from "../components/AsideBar";
@@ -10,11 +10,20 @@ import { Proyects } from "../components/Proyects";
 import { Skill } from "../components/Skill";
 
 export const DashRouter = () => {
+  const [btnasidebar, setbtnAsidebar] = useState(false);
+
+  const Aside = () => {
+    setbtnAsidebar(!btnasidebar);
+  };
+
   return (
     <div className="routes">
-      <AsideBar />
+      {btnasidebar && <AsideBar />}
 
       <main>
+        <button className="btn blue view mt-1" onClick={Aside}>
+          {btnasidebar ? "Close" : "Open"}
+        </button>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

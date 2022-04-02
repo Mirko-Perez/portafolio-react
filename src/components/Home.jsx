@@ -28,6 +28,7 @@ export const Home = () => {
           <li className="home-enlace">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mirko-perez-6a2b001b7/"
               className=" waves-effect waves-light"
             >
@@ -37,6 +38,7 @@ export const Home = () => {
           <li className="home-enlace">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Mirko-Perez"
               className="waves-effect waves-light"
             >
@@ -47,6 +49,7 @@ export const Home = () => {
         <button className="btn-large black waves-effect waves-light ">
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1DVncjSkTvwj3NTBun6wA_KHtWc7oTSmM/view?usp=sharing"
           >
             Download CV

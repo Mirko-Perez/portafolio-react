@@ -9,7 +9,7 @@ export const About = () => {
         <h2 className="header">Sobre Mi</h2>
         <div className="card horizontal">
           <div className="card-image">
-            <img className=" img-fondo mt-5" src={second} />
+            <img alt="Fondo" className=" img-fondo mt-5" src={second} />
           </div>
           <div className="card-stacked">
             <div className="card-content">
