@@ -34,7 +34,7 @@ export const AsideBar = () => {
             className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="proyects"
           >
-            Proyectos
+            Projects
           </Link>
           {/* <Link className="nav-item" to="educations">
             Educations

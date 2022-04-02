@@ -1,16 +1,16 @@
 .header {
   text-align: center;
-  margin: 30vh auto;
 
   .home__title {
     color: $dark;
     cursor: pointer;
-    
+    position: relative;
 
     &:hover {
       color: $grey-ligth;
     }
   }
+  
 }
 
 
@@ -20,9 +20,9 @@ li{
   margin: 0 1rem;
   padding: 5px 10px;
   
-  a{
-    color: $white;
-  }
+}
+a{
+  color: $white;
 }
 
 

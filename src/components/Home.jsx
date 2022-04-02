@@ -25,19 +25,32 @@ export const Home = () => {
           />
         </h2>
         <ul>
-          <li>
-            <a href="#" className=" waves-effect waves-light">
+          <li className="home-enlace">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/mirko-perez-6a2b001b7/"
+              className=" waves-effect waves-light"
+            >
               Linkedin
             </a>
           </li>
-          <li>
-            <a href="#" className="waves-effect waves-light">
+          <li className="home-enlace">
+            <a
+              target="_blank"
+              href="https://github.com/Mirko-Perez"
+              className="waves-effect waves-light"
+            >
               GitHub
             </a>
           </li>
         </ul>
         <button className="btn-large black waves-effect waves-light ">
-          Descargar CV
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1DVncjSkTvwj3NTBun6wA_KHtWc7oTSmM/view?usp=sharing"
+          >
+            Download CV
+          </a>
         </button>
       </div>
     </div>
