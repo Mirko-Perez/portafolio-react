@@ -5,14 +5,14 @@ import second from "../helpers/img/fondo.jfif";
 export const About = () => {
   return (
     <>
-      <div class="col s12 m7">
-        <h2 class="header">Sobre Mi</h2>
-        <div class="card horizontal">
-          <div class="card-image">
+      <div className="col s12 m7">
+        <h2 className="header">Sobre Mi</h2>
+        <div className="card horizontal">
+          <div className="card-image">
             <img className=" img-fondo mt-5" src={second} />
           </div>
-          <div class="card-stacked">
-            <div class="card-content">
+          <div className="card-stacked">
+            <div className="card-content">
               <p>
                 <Typewriter
                   onInit={(typewriter) => {

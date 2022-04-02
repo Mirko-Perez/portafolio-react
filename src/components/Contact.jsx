@@ -1,31 +1,58 @@
 import React from "react";
+import Emailjs from "@emailjs/browser";
 
 export const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    Emailjs.sendForm(
+      "service_t2maon1",
+      "template_a600ejl",
+      e.target,
+      "0WOW_hNJbvpUzzBxw"
+    ).then((resp) => resp.status === 200 && alert("Msj Enviado"));
+    // .catch((err) => console.log(err));
+  };
+
   return (
     <div className="contact-content">
       <div className="row center">
-        <form autoComplete="off" className="col s12 form-contact">
+        <form
+          autoComplete="off"
+          className="col s12 form-contact"
+          onSubmit={sendEmail}
+        >
           <div className="row">
             <div className="input-field col s12">
-              <input id="subject" type="text" className="validate" />
-              <label for="subject">Subject</label>
+              <input
+                name="subject"
+                id="subject"
+                type="text"
+                className="validate"
+              />
+              <label htmlFor="subject">Subject</label>
             </div>
           </div>
 
           <div className="row">
             <div className="input-field col s12">
-              <input id="email" type="email" className="validate" />
-              <label for="email">Email</label>
+              <input
+                name="email"
+                id="email"
+                type="email"
+                className="validate"
+              />
+              <label htmlFor="email">Email</label>
             </div>
           </div>
 
           <div className="row">
             <div className="input-field col s12">
               <textarea
+                name="textarea1"
                 id="textarea1"
                 className="materialize-textarea"
               ></textarea>
-              <label for="textarea1">Message</label>
+              <label htmlFor="textarea1">Message</label>
             </div>
           </div>
 

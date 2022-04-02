@@ -23,65 +23,65 @@ export const Skill = () => {
         <h5 className="title">Lenguajes</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faHtml5} />
-          <div class="centrado">HTML5</div>
+          <div className="centrado">HTML5</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faJs} />
-          <div class="centrado">JavaScript</div>
+          <div className="centrado">JavaScript</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faCss3} />
-          <div class="centrado">CSS3</div>
+          <div className="centrado">CSS3</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faPython} />
-          <div class="centrado">Python</div>
+          <div className="centrado">Python</div>
         </div>
       </div>
       <div className="card">
         <h5 className="title">framework / library / preprocessor</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faSass} />
-          <div class="centrado">SASS</div>
+          <div className="centrado">SASS</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faReact} />
-          <div class="centrado">React</div>
+          <div className="centrado">React</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faBootstrap} />
-          <div class="centrado">Bootstrap</div>
+          <div className="centrado">Bootstrap</div>
         </div>
         <div className="list">
           <img className="icon" src={jest} alt="Jest" />
-          <div class="centrado">Jest</div>
+          <div className="centrado">Jest</div>
         </div>
         <div className="list">
           <img className="icon" src={firebaseIcon} alt="firebase" />
-          <div class="centrado">Firebase</div>
+          <div className="centrado">Firebase</div>
         </div>
         <div className="list">
           <img className="icon" src={reduxIcon} alt="redux" />
-          <div class="centrado">Redux</div>
+          <div className="centrado">Redux</div>
         </div>
       </div>
       <div className="card">
         <h5 className="title">Tools</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faGithub} />
-          <div class="centrado">Github</div>
+          <div className="centrado">Github</div>
         </div>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faNpm} />
-          <div class="centrado">Npm</div>
+          <div className="centrado">Npm</div>
         </div>
         <div className="list">
           <img className="icon" src={postman} alt="Postman" />
-          <div class="centrado">Postman</div>
+          <div className="centrado">Postman</div>
         </div>
         <div className="list">
           <img className="icon" src={VSIcon} alt="VSIcon" />
-          <div class="centrado">
+          <div className="centrado">
             Visual
             <br />
             Studio
