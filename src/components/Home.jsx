@@ -50,7 +50,7 @@ export const Home = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1DVncjSkTvwj3NTBun6wA_KHtWc7oTSmM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aKMFczXvN29qopSZbIs_PQ0E6nPlw8rk/view?usp=sharing"
           >
             Download CV
           </a>

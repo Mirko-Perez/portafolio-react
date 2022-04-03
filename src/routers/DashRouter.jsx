@@ -10,7 +10,7 @@ import { Proyects } from "../components/Proyects";
 import { Skill } from "../components/Skill";
 
 export const DashRouter = () => {
-  const [btnasidebar, setbtnAsidebar] = useState(false);
+  const [btnasidebar, setbtnAsidebar] = useState(true);
 
   const Aside = () => {
     setbtnAsidebar(!btnasidebar);

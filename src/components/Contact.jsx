@@ -44,7 +44,6 @@ export const Contact = () => {
               <label htmlFor="email">Email</label>
             </div>
           </div>
-
           <div className="row">
             <div className="input-field col s12">
               <textarea
