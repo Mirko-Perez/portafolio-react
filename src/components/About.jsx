@@ -15,17 +15,13 @@ export const About = () => {
             <div className="card-content">
               <p>
                 <Typewriter
-                  onInit={(typewriter) => {
-                    typewriter
-                      .typeString(
-                        "Soy un estudiante de Ingenieria en Sistemas de Información en la UTN , con un enfoque en el desarrollo Front-End con React aprendido de manera autodidacta y estoy en Busqueda de mi primer trabajo IT en un lugar donde pueda adquirir nuevos conocimientos, con muchas ganas de aprender y crecer profesionalmente."
-                      )
-
-                      .pauseFor(1000)
-
-                      // .deleteAll()
-
-                      .start();
+                  options={{
+                    strings: [
+                      "Soy un estudiante de Ingenieria en Sistemas de Información en la UTN , con un enfoque en el desarrollo Front-End con React aprendido de manera autodidacta y estoy en Busqueda de mi primer trabajo IT en un lugar donde pueda adquirir nuevos conocimientos, con muchas ganas de aprender y crecer profesionalmente.",
+                    ],
+                    delay: 50,
+                    autoStart: true,
+                    pauseFor: 100000,
                   }}
                 />
               </p>

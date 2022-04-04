@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import profile from "../helpers/perfil.jpeg";
 
 export const AsideBar = () => {
   return (
     <aside className="nav ">
       <div className="profile-container">
-        <img
-          src="https://p4.wallpaperbetter.com/wallpaper/135/692/935/sci-fi-astronaut-jellyfish-space-hd-wallpaper-preview.jpg"
-          alt="profile"
-        />
+        <img src={profile} alt="profile" />
       </div>
       <div className="nav-container">
         <ul>
