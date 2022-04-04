@@ -1,6 +1,13 @@
 .img-fondo{
     height: 100%;
     margin-left: 1rem;
+    
+}
+
+.card-image{
+    @media screen and (max-width: 700px){
+        display: none;
+    }
 }
 
 
