@@ -3,8 +3,8 @@
 
     img{
         height: 200px;
-        width: 250px;
-        border-radius: 30%;
+        width: 200px;
+        border-radius: 50%;
         border: 2px solid $white;
     }
 }
@@ -12,17 +12,19 @@
 .nav-container{
     height: 100vh;
     
+    
 }
 
 .nav {
     align-items: center;
-    background-color: $grey-ligth;
-    border-right:1px solid $white ;
+    background-color: darken($color: $grey, $amount: 20);
+    // border-right:1px solid $white ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    // width: 300px;
+    width: 300px;
+    
 
     
     
@@ -39,6 +41,7 @@
     margin-bottom: 15px;
     // width: 290px;
     box-shadow: 2px 2px 0px 0px $white;
+    border-radius: 1rem;
 
     
 

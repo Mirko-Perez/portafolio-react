@@ -25,12 +25,12 @@ export const Home = () => {
           />
         </h2>
         <ul>
-          <li className="home-enlace">
+          <li className="home-enlace ">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mirko-perez-6a2b001b7/"
-              className=" waves-effect waves-light"
+              className=" waves-effect waves-light "
             >
               Linkedin
             </a>
@@ -46,11 +46,11 @@ export const Home = () => {
             </a>
           </li>
         </ul>
-        <button className="btn-large black waves-effect waves-light ">
+        <button className="btn-large black waves-effect waves-light btn-radio">
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1aKMFczXvN29qopSZbIs_PQ0E6nPlw8rk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qa3KKUukJfGhk2GDAX552aAvbvUD51RQ/view?usp=sharing"
           >
             Download CV
           </a>
