@@ -38,7 +38,8 @@ export const AsideBar = () => {
             className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="proyects"
           >
-            <AiFillFolderOpen /> Projects
+            <AiFillFolderOpen />
+            Projects
           </Link>
           {/* <Link className="nav-item" to="educations">
             Educations
@@ -47,7 +48,8 @@ export const AsideBar = () => {
             className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="contact"
           >
-            <AiOutlineMail /> Contact
+            <AiOutlineMail />
+            Contact
           </Link>
         </ul>
       </div>
