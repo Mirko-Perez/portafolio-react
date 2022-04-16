@@ -6,11 +6,19 @@
         width: 200px;
         border-radius: 50%;
         border: 2px solid $white;
+
+        @media screen and (max-width: 700px){
+            height: 150px;
+            width: 150px;
+        }
     }
 }
 
 .nav-container{
+    // overflow: hidden;
+    padding-top: 1rem;
     height: 100vh;
+    position: fixed;
     
     
 }
@@ -21,11 +29,14 @@
     // border-right:1px solid $white ;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     text-align: center;
-    width: 300px;
+    width: 280px;
     
-
+    
+    
+    
+    
     
     
 }
@@ -37,13 +48,15 @@
     cursor: pointer;
     display: block;
     text-decoration: none;
-    margin-top: 18px;
-    margin-bottom: 15px;
-    // width: 290px;
+    margin: 1rem;
+    width: 180px;
     box-shadow: 2px 2px 0px 0px $white;
     border-radius: 1rem;
+    @media screen and (max-width: 700px){
+        // height: 150px;
+        width: 150px;
 
-    
+    }
 
    
 }

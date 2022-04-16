@@ -14,7 +14,10 @@
     height: 30%;
     border-bottom: 1px solid $white;
     background-color: $dark;
-    padding-bottom: 2rem;
+    padding: 1rem;
+    columns: 3 70px;
+    column-gap: .5rem;
+    
 }
 
 .title {
@@ -29,6 +32,9 @@
    cursor: pointer;
    transition:  1s ease;
    box-shadow: 2px 2px $white;
+display: block;
+max-width: 100%;
+margin-bottom: .5rem;
    
 }
 

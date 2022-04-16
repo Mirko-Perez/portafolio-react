@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: Helvetica, Arial,  sans-serif;
-    
-    overflow: hidden;
+    // font-family: Helvetica, Arial,  sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    // overflow: hidden;
     
 }
 
@@ -10,12 +10,31 @@ html , body {
     margin: 0;
 }
 
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar-track {
+    background: $grey;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: $dark;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    // border: 3px solid $dark;  /* creates padding around scroll thumb */
+}
+
 main {
     min-height: 100vh;
     background-color: lighten($color: $dark, $amount: 20);
     color: $white;
     width: 100%;
+    
 }
+
+// img{
+//     overflow: hidden;
+// }
 
 .routes{
     display: flex;

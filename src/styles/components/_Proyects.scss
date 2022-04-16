@@ -1,11 +1,4 @@
-// .card{
-//     width: 200px;
-// }
 
-// img{
-//     // height: 200px;
-//     width: 200px;
-// }
 
 .card-title{
 cursor: pointer;
@@ -18,4 +11,18 @@ opacity: 0;
     }
     transition: opacity 1s ease-out;
 
+    @media screen and (max-width: 700px){
+        font-size:xx-small;
+        
+    }
+
+}
+
+
+.card-action{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
 }

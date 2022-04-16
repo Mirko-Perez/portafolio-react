@@ -19,8 +19,8 @@ import VSIcon from "../helpers/icons/visualstudio_icon.svg";
 export const Skill = () => {
   return (
     <div className="skill-content">
+      <h5 className="title">Lenguajes</h5>
       <div className="card">
-        <h5 className="title">Lenguajes</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faHtml5} />
           <div className="centrado">HTML5</div>
@@ -38,8 +38,8 @@ export const Skill = () => {
           <div className="centrado">Python</div>
         </div>
       </div>
+      <h5 className="title">framework / library / preprocessor</h5>
       <div className="card">
-        <h5 className="title">framework / library / preprocessor</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faSass} />
           <div className="centrado">SASS</div>
@@ -65,8 +65,8 @@ export const Skill = () => {
           <div className="centrado">Redux</div>
         </div>
       </div>
+      <h5 className="title">Tools</h5>
       <div className="card">
-        <h5 className="title">Tools</h5>
         <div className="list">
           <FontAwesomeIcon className="icon " icon={faGithub} />
           <div className="centrado">Github</div>

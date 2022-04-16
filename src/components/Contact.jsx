@@ -28,6 +28,7 @@ export const Contact = () => {
                 id="subject"
                 type="text"
                 className="validate"
+                required
               />
               <label htmlFor="subject">Subject</label>
             </div>
@@ -40,6 +41,7 @@ export const Contact = () => {
                 id="email"
                 type="email"
                 className="validate"
+                required
               />
               <label htmlFor="email">Email</label>
             </div>
@@ -50,6 +52,7 @@ export const Contact = () => {
                 name="textarea1"
                 id="textarea1"
                 className="materialize-textarea"
+                required
               ></textarea>
               <label htmlFor="textarea1">Message</label>
             </div>

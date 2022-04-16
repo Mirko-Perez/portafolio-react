@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineLinkedin } from "react-icons/ai";
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -15,7 +17,7 @@ export const Home = () => {
           </span>
         </h1>
 
-        <h2 className=" mt-1">
+        <h2 className="h2-home mt-1">
           <Typewriter
             options={{
               strings: ["Welcome!", "Front-End Developer", "I like Learning"],
@@ -32,7 +34,7 @@ export const Home = () => {
               href="https://www.linkedin.com/in/mirko-perez-6a2b001b7/"
               className=" waves-effect waves-light "
             >
-              Linkedin
+              <AiOutlineLinkedin /> Linkedin
             </a>
           </li>
           <li className="home-enlace">
@@ -42,7 +44,7 @@ export const Home = () => {
               href="https://github.com/Mirko-Perez"
               className="waves-effect waves-light"
             >
-              GitHub
+              <AiOutlineGithub /> GitHub
             </a>
           </li>
         </ul>

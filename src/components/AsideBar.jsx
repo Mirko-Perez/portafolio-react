@@ -1,38 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import profile from "../helpers/perfil.jpeg";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineRise } from "react-icons/ai";
+import { AiTwotoneHome } from "react-icons/ai";
+import { AiFillFolderOpen } from "react-icons/ai";
 
 export const AsideBar = () => {
   return (
     <aside className="nav ">
-      <div className="profile-container">
-        <img src={profile} alt="profile" />
-      </div>
       <div className="nav-container">
+        <div className="profile-container">
+          <img src={profile} alt="profile" />
+        </div>
+
         <ul>
           <Link
             className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="/"
           >
-            Home
+            <AiTwotoneHome /> Home
           </Link>
           <Link
             className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="about"
           >
-            About
+            <AiOutlineUser /> About
           </Link>
           <Link
             className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="skill"
           >
-            Skill
+            <AiOutlineRise /> Skill
           </Link>
           <Link
             className="nav-item animate__animated animate__backInRight waves-effect waves-light btn-large black"
             to="proyects"
           >
-            Projects
+            <AiFillFolderOpen /> Projects
           </Link>
           {/* <Link className="nav-item" to="educations">
             Educations
@@ -41,7 +47,7 @@ export const AsideBar = () => {
             className="nav-item animate__animated animate__backInLeft waves-effect waves-light btn-large black"
             to="contact"
           >
-            Contact
+            <AiOutlineMail /> Contact
           </Link>
         </ul>
       </div>

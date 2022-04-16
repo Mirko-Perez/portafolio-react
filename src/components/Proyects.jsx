@@ -10,8 +10,8 @@ import Paint from "../helpers/img/proyects/paint.png";
 
 export const Proyects = () => {
   return (
-    <div className="row center">
-      <div className="col s3 m3">
+    <div className="center">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Calculadora} />
@@ -21,6 +21,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://meek-gaufre-cd7025.netlify.app/"
@@ -37,7 +38,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Search} />
@@ -47,6 +48,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               rel="noopener noreferrer"
               target="_blank"
               href="https://mirko-perez.github.io/Search-Image/"
@@ -63,7 +65,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Hero} />
@@ -73,6 +75,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://romantic-mclean-919093.netlify.app/"
@@ -89,7 +92,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Contact} />
@@ -99,6 +102,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://mirko-perez.github.io/Contact-List-PWA/"
@@ -115,7 +119,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={PostiT} />
@@ -125,6 +129,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="http://mirkoangel1.pythonanywhere.com/"
@@ -141,7 +146,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Gif} />
@@ -151,6 +156,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://mirko-perez.github.io/React-Gifs-Expert-App/"
@@ -167,7 +173,7 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
             <img alt="Proyectos" src={Todo} />
@@ -177,6 +183,7 @@ export const Proyects = () => {
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://mirko-perez.github.io/project-to-do-lists/"
@@ -193,16 +200,17 @@ export const Proyects = () => {
           </div>
         </div>
       </div>
-      <div className="col s3 m3">
+      <div className="col">
         <div className="card animate__animated animate__fadeInUp">
           <div className="card-image">
-            <img alt="Proyectos" src={Paint} />
             <span className="card-title ">Paint</span>
+            <img alt="Proyectos" src={Paint} />
             <p>HTML-JS-CSS</p>
           </div>
 
           <div className="card-action">
             <a
+              className="mb-5"
               target="_blank"
               rel="noopener noreferrer"
               href="https://roaring-sorbet-92f5df.netlify.app/"
